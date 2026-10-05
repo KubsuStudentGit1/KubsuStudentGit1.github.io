@@ -15,12 +15,25 @@ body {
 .site-footer {
     width: 100%;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .site-header {
     background-color: #7092be;
     color: #fff;
     padding: 15px;
 }
+
+.site-header img {
+    width: 60px;
+    height: 60px;         
+    object-fit: cover;    
+    border-radius: 50%;   
+    vertical-align: middle;
+}
+
 .main-nav ul {
     display: flex;
     flex-direction: column; 
